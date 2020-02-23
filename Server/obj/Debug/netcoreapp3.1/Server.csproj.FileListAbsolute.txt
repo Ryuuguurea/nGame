@@ -1,0 +1,11 @@
+f:\Unity Programs\nGame\Server\bin\Debug\netcoreapp3.1\Server.exe
+F:\Unity Programs\nGame\Server\bin\Debug\netcoreapp3.1\Server.deps.json
+F:\Unity Programs\nGame\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+F:\Unity Programs\nGame\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+f:\Unity Programs\nGame\Server\bin\Debug\netcoreapp3.1\Server.dll
+f:\Unity Programs\nGame\Server\bin\Debug\netcoreapp3.1\Server.pdb
+f:\Unity Programs\nGame\Server\obj\Debug\netcoreapp3.1\Server.csprojAssemblyReference.cache
+f:\Unity Programs\nGame\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+f:\Unity Programs\nGame\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+f:\Unity Programs\nGame\Server\obj\Debug\netcoreapp3.1\Server.dll
+f:\Unity Programs\nGame\Server\obj\Debug\netcoreapp3.1\Server.pdb
