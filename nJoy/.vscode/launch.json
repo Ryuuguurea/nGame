@@ -1,0 +1,46 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "(lua)win32 debug",
+            "type": "lua",
+            "request": "launch",
+            "stopOnEntry": false,
+            "runtimeArgs": "${workspaceFolder}/build/win32/Engine/Game.lua",
+            "runtimeExecutable": "${workspaceFolder}/build/win32/njoy.exe",
+            "cwd": "${workspaceFolder}/build/win32",
+            "path": "${workspaceFolder}/build/win32/?.lua",
+            "cpath": "${workspaceFolder}/build/win32",
+            "arg": [],
+            "consoleCoding": "utf8"
+        },
+        {
+            "name": "(gdb)win32 build",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/win32/njoy.exe",
+            "args": [
+                "${workspaceFolder}/build/win32/Engine/Game.lua"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/build/win32",
+            "environment": [],
+            "externalConsole": true,
+            "internalConsoleOptions": "neverOpen",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Compile"
+        }
+    ]
+}
